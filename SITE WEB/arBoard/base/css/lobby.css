@@ -1,0 +1,17 @@
+#players {
+    flex-grow: 4;
+    font-size: 20px;
+}
+
+#chat {
+    flex-grow: 3;
+}
+
+#midColumn {
+    flex-grow: 16;
+    margin-top: 15px;
+}
+
+#startGame {
+    
+}

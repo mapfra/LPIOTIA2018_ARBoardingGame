@@ -1,0 +1,90 @@
+.sectionApp {
+    border: black solid 2px;
+    flex-grow: 1;
+    margin: 15px;
+}
+
+.sectionApp:hover {
+    background-color: rgba(120, 120, 120, 0.200);
+    cursor: pointer;
+}
+
+#players {
+    margin-bottom: 50px;
+}
+
+.player-turn {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.player-turn::before {
+    content:"> ";
+}
+
+.player-turn::after {
+    content:" <";
+}
+
+.not-player-turn {
+    font-size: 12px;
+}
+
+#de-row {
+    margin-top: 10px;
+}
+
+#de-zone {
+    display: inline-block;
+    padding: 15px;
+    border: rgba(120, 120, 120, 0.200) solid 2px;
+}
+
+#dice-button {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(30, 57, 87);
+    border: black 2px solid;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#dice-button:hover {
+    background-color: rgb(54, 100, 153);
+}
+
+button:focus {
+    outline:0;
+}
+
+#plateau {
+    height: 750px;
+}
+
+.game-flex-container-column {
+    background-color: rgb(12,23,35);
+    border: black solid 2px;
+    min-height: 100px;
+    flex-grow: 2;
+    margin-top: 15px;
+    max-width: 20%;
+}
+
+#right-side{
+    margin-left: 15px;
+}
+
+#dice-wrapper {
+    margin-top: 25px;
+}
+
+#timer-wrapper {
+    margin-bottom: 45px;
+}
+
+#timer {
+   font-size: 25px;
+}

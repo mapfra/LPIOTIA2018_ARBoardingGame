@@ -1,0 +1,24 @@
+html {
+    text-align: center;
+    background-color: rgb(28,47,75);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+h1 {
+    font-size: 26px;
+}
+
+#formulaire_auth {
+    background-color: rgb(12,23,35);
+    border: black solid 2px;
+    flex-grow: 1;
+    text-align: center;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    border: 1px rgb(50,50,50) solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+}

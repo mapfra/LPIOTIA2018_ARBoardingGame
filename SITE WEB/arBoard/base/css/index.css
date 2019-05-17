@@ -1,0 +1,39 @@
+html {
+    text-align: center;
+    background-color: rgb(28,47,75);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+header, #auth {
+    background-color: rgb(12,23,35);
+    border: black solid 2px;
+    min-height: 60px;
+    flex-grow: 1;
+}
+
+#auth {
+    margin-top: 15px;
+}
+
+#auth a {
+    color: white;
+    text-decoration: none;
+}
+
+#auth a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
